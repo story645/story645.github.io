@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Plotting Pretty Pictures : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Plotting Pretty Pictures</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/story645">View on GitHub</a>
+
+          <h1 id="project_title">Plotting Pretty Pictures</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="better-categorical-axis-support" class="anchor" href="#better-categorical-axis-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Better Categorical Axis Support</h1>
+
+<p>It's fairly typical for matplotlib users to need to plot catagorical data:
+<img src="http://i.imgur.com/oVMKFEO.png" alt="picture"></p>
+
+<p>And even a graph this simple requires the user to unpack a native intuitive data structure in order to create it:</p>
+
+<pre><code>data = {'apples':10, 'oranges':15, 'lemons':5, 'limes':20}
+fig = plt.figure()`
+ax = fig.add_subplot(1,1,1)`
+ax.bar(range(4), data.values(), tick_label=data.keys(), 
+       align='center', color='lightgray')
+ax.xaxis.set_tick_params(size=0)
+</code></pre>
+
+<p>One of the major aims of this project is to simplify the process so that at the least, the ax.bar call can be reduced to something like <code>ax.bar(data, align='center', color='lightgray')</code></p>
+
+<p>This project aims to encompass more than just bar graphs, and more than just dictionaries; support charts and data structures will determined as the project develops. </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Plotting Pretty Pictures",
+  "tagline": "",
+  "body": "Better Categorical Axis Support\r\n======================================\r\n\r\nIt's fairly typical for matplotlib users to need to plot catagorical data:\r\n![picture](http://i.imgur.com/oVMKFEO.png)\r\n\r\nAnd even a graph this simple requires the user to unpack a native intuitive data structure in order to create it:\r\n```\r\ndata = {'apples':10, 'oranges':15, 'lemons':5, 'limes':20}\r\nfig = plt.figure()`\r\nax = fig.add_subplot(1,1,1)`\r\nax.bar(range(4), data.values(), tick_label=data.keys(), \r\n       align='center', color='lightgray')\r\nax.xaxis.set_tick_params(size=0)\r\n```\r\n\r\nOne of the major aims of this project is to simplify the process so that at the least, the ax.bar call can be reduced to something like `ax.bar(data, align='center', color='lightgray')`\r\n\r\nThis project aims to encompass more than just bar graphs, and more than just dictionaries; support charts and data structures will determined as the project develops. ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
