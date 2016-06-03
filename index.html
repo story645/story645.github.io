@@ -24,7 +24,40 @@
         </header>
     </div>
 
-    <!-- MAIN CONTENT -->
+ <!--posts -->
+  <div id="main_content_wrap" class="outer">
+    
+    <!-- Post 3 -->
+      <section id="main_content" class="inner">
+        <h1>
+<a id="hack-pandas-to-improve-mpl" class="anchor" href="#hack-pandas-to-improve-mpl" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hack Pandas to Improve MPL</h1>
+
+<p> A central question in supporting catagorical data is which libraries and how? 
+Matplotlib wants to avoid conditional supports because they are messy and can lead to unreasonable quote bloat quite quickly. 
+And it puts the onus on matplotlib to maintain that the conversions work throughout api changes in the client side library (such as pandas or xray). 
+Instead, in discussion with a pandas developer, the plan is to write the conversion code such that it lives in the library providing the data (such as pandas) 
+and that code is registered with matplotlib.</p>
+
+<p>Because the quite amazing <a href="http://pandas.pydata.org/">Pandas</a> already supports a lot of plots of it's catagorical data, 
+it makes for the perfect library to test out this plan. If this works, it will also hopefully yield a guide to adding support for your favorite 
+library. </p>
+      </section>
+      
+  <!-- Post 2 -->
+         <section id="main_content" class="inner">
+        <h1>
+<a id="housekeeping" class="anchor" href="#housekeeping" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>Housekeeping is Good for the Bewildered Newbie</a></h1>
+
+<p>This past week, instead of diving straight into the matplotlib code base, I've been reading issues. A lot of issues, 200 and counting. 
+It's kinda therapeutic, but more importantly has given me a crash course of sorts on how the matplotlib community operates. 
+I'm starting to see how issues get reported, and resolved, and why they get stalled and I get to feel the joy of finding the stray issue that's been resolved.
+I've even found a couple of issues that I could probably tackle. </p>
+
+<p>So if you want to get involved in a project and are finding that their issue/PR tracker is at least a bit overwhelming, 
+I urge you to get out your metaphorical duster and join in on some housekeeping. </p>
+</section>
+    
+  <!--POST 1 -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
@@ -43,7 +76,7 @@ ax.bar(range(4), data.values(), tick_label=data.keys(),
 ax.xaxis.set_tick_params(size=0)
 </code></pre>
 
-<p>One of the major aims of this project is to simplify the process so that at the least, the ax.bar call can be reduced to something like <code>ax.bar(data, align='center', color='lightgray')</code></p>
+<p>One of the major aims of this project is to simplify the process so that at the least, the ax.bar call can be reduced to something like <code>ax.bar(data.keys(), data.values(), align='center', color='lightgray')</code></p>
 
 <p>This project aims to encompass more than just bar graphs, and more than just dictionaries; support charts and data structures will determined as the project develops. </p>
       </section>
