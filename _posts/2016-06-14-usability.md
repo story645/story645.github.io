@@ -8,6 +8,7 @@ categories: jekyll update
 So, this week I took a semi-break* from GSOC 'cause my fellowship ran a [weeklong series of workshops](https://gcdigitalfellows.github.io/) that were aimed at getting academics in humanaties and the softer side of STEM up to speed with what they call "digital tools" and what the rest of us call using code & software to do things (or sometimes scientific programming). So amongst others, I taught some English majors, librarians, biologists, and a lot of Business majors [how to use pandas and sklearn](https://github.com/GCDigitalFellows/gcdri_ts_cat_ml). And that involved showing them code that looks like this:
 
 ```python
+
 comp1 = pca_weights.T[0]
 
 fig = plt.figure()
