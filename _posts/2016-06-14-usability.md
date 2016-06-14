@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How I realized that this is a usability project"
+title:  "This is really a usability project"
 date:   2016-06-14 14:20:41 -0400
 categories: jekyll update
 ---
 
-So, this week I took a semi-break* from GSOC 'cause my fellowship ran a [weeklong series of workshops](https://gcdigitalfellows.github.io/) that were aimed at getting academics in humanaties and the softer side of STEM up to speed with what they call "digital tools" and what the rest of us call using code & software to do things (or sometimes scientific programming). So amongst others, I taught some English majors, librarians, biologists, and a lot of Business majors [how to use pandas and sklearn](https://github.com/GCDigitalFellows/gcdri_ts_cat_ml). And that involved showing them code that looks like this:
+So, this week I took a semi-break<sup>1</sup> from GSOC 'cause my fellowship ran a [weeklong series of workshops](https://gcdigitalfellows.github.io/) that were aimed at getting academics in humanaties and the softer side of STEM up to speed with what they call "digital tools" and what the rest of us call using code & software to do things (or sometimes scientific programming). So amongst others, I taught some English majors, librarians, biologists, and a lot of Business majors [how to use pandas and sklearn](https://github.com/GCDigitalFellows/gcdri_ts_cat_ml). And that involved showing them code that looks like this:
 
 ```python
 
@@ -46,5 +46,4 @@ Explain ticks and labels and why they need to be seperated to an audience that m
 And most importantly none of this is intuitive 'cause bars don't really have an x component, at least not the way we typically expect them to. They just show catagorical data, or heights...the x is typically hidden and intuited by the plotting routine. Pandas understands that sometimes it's better to just leave things magic via their plotting libraries, and so we aim to extend that to matplotlib natively so that a bit of a maintenance load gets lifted. And so other plotting libraries like xarray can follow suite. 
 
 
-
-* I also forked pandas and matplotlib and installed those on my machines. The latter has been rather cranky 'cause of a freetype issue, so my mentor suggested the following before build: `export MPLLOCALFREETYPE=1`
+<sup>1</sup>I also forked pandas and matplotlib and installed those on my machines. The latter has been rather cranky 'cause of a freetype issue, so my mentor suggested the following before build: `export MPLLOCALFREETYPE=1`
