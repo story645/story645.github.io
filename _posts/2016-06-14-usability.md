@@ -37,10 +37,10 @@ which requires the following conceptual explainations 'cause I've tried handwavi
 ax1.set_xticks(range(comp1.shape[0]))
 ax1.set_xticklabels(dfFV.keys(), rotation=90)
 ```
-Explain ticks and labels and why they need to be seperated to an audience that mostly thinks excel is complicated. And kwargs, if you haven't yet. And go slowly 'cause your audience hasn't quite grokked functions yet. 
+Explain ticks and labels and why they need to be seperated to an audience that mostly thinks excel is complicated. And kwargs, if you haven't yet. And go slowly 'cause your audience hasn't quite grokked functions yet. And remember that this was probably a throwaway in the grand scheme of whatever you really wanted to teach...
 
-And most importantly none of this is intuitive 'cause bars don't really have an x component, at least not the way we typically expect them to. 
+And most importantly none of this is intuitive 'cause bars don't really have an x component, at least not the way we typically expect them to. They just show catagorical data, or heights...the x is typically hidden and intuited by the plotting routine. Pandas understands that sometimes it's better to just leave things magic via their plotting libraries, and so we aim to extend that to matplotlib natively so that a bit of a maintenance load gets lifted. And so other plotting libraries like xarray can follow suite. 
 
 
 
-* I also forked pandas and matplotlib and installed those on my machines. The latter has been rather cranky 'cause 
+* I also forked pandas and matplotlib and installed those on my machines. The latter has been rather cranky 'cause of a freetype issue, so my mentor suggested the following before build: `export MPLLOCALFREETYPE=1`
