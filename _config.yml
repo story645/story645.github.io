@@ -11,7 +11,7 @@ email: story645@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A slightly rambling how to guide on diving into the 
   somewhat overwhelming and sometimes confusing world of 
-  contributing matplotlib. 
+  contributing to matplotlib. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://story645.github.io/" # the base hostname & protocol for your site
 twitter_username: story645
