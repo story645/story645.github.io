@@ -8,11 +8,11 @@ categories: jekyll update
 Catagorical data, like most data, often really needs to be visualized for readability. 
 A standard method to visualizae catagorical information is via a bar chart, such as the following:
 
-![bar](_figs/bar.png?raw=true)
+![Image](_figs/bar.png?raw=true)
 
 Unfortunately, even a graph this simple requires a matplotlib user to unpack a native data structure in order to create it:
 
-```
+```python
 data = {'apples':10, 'oranges':15, 'lemons':5, 'limes':20}
 fig = plt.figure()`
 ax = fig.add_subplot(1,1,1)`
@@ -22,7 +22,8 @@ ax.xaxis.set_tick_params(size=0)
 ```
 
 One of the major aims of this project is to simplify the process so that at the least, the ax.bar call can be reduced to something like: 
-```
+
+```python
 ax.bar(data.keys(), data.values(), align='center', color='lightgray')
 ```
 
