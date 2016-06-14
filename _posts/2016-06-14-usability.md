@@ -39,7 +39,7 @@ ax1.set_xticklabels(dfFV.keys(), rotation=90)
 ```
 Explain ticks and labels and why they need to be seperated to an audience that mostly thinks excel is complicated. And kwargs, if you haven't yet. And go slowly 'cause your audience hasn't quite grokked functions yet. 
 
-And most importantly none of this is intuitive 'ca
+And most importantly none of this is intuitive 'cause bars don't really have an x component, at least not the way we typically expect them to. 
 
 
 
