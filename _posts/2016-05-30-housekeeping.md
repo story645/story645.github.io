@@ -28,7 +28,7 @@ df.to_csv("github", encoding='utf-8')
 ```
 
 You can read my notes (and contribute) here: [
-Matplotlib Issues & PRs](https://docs.google.com/spreadsheets/d/1PkxqqVAzrWuGtQ1KJJ-RrrnA17wMRniy1W4gVPOBSK0/edit?usp=sharing) Since I was already tackling the issue tracker, I also started flagging stalled issues 'cause during the application period I had gotten very frustrated trying to figure out which issues I could actually tackle and which were mired in discussion. My mentors just said I could create a stalled label, so I plan to have some fun with that. :simple_smile:
+Matplotlib Issues & PRs](https://docs.google.com/spreadsheets/d/1PkxqqVAzrWuGtQ1KJJ-RrrnA17wMRniy1W4gVPOBSK0/edit?usp=sharing) Since I was already tackling the issue tracker, I also started flagging stalled issues 'cause during the application period I had gotten very frustrated trying to figure out which issues I could actually tackle and which were mired in discussion. My mentors just said I could create a stalled label, so I plan to have some fun with that.
 
 Going down this rabbit hole, I was also given contributor rights on the matplotlib repo so that I could create labels and label issues. It's been kinda therapeutic, but more importantly has given me a crash course of sorts on how the matplotlib community operates. I'm starting to see how issues get reported, and resolved, and why they get stalled and I get to feel the joy of finding the stray issue that's been resolved. I've even found a couple of issues that I could probably tackle. </p>
 
