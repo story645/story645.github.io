@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Housekeeping is Awesome Orientation"
+title:  "Orientation by way of housekeeping"
 date:   2016-06-14 14:20:41 -0400
 categories: jekyll update
 ---
