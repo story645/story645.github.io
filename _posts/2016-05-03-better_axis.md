@@ -8,7 +8,7 @@ categories: jekyll update
 Catagorical data, like most data, often really needs to be visualized for readability. 
 A standard method to visualizae catagorical information is via a bar chart, such as the following:
 
-![bar](_figs/bar.png)
+![bar](/_figs/bar.png?raw=true)
 
 Unfortunately, even a graph this simple requires a matplotlib user to unpack a native data structure in order to create it:
 
