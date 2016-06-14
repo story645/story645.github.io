@@ -1,1 +1,1 @@
-# story645.github.io
+http://story645.github.io/
