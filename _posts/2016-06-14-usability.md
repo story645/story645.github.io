@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 categories: jekyll update
 ---
 
-So, this week I took a semi-break<sup>1</sup> from GSOC 'cause my fellowship ran a [weeklong series of workshops](https://gcdigitalfellows.github.io/) that were aimed at getting academics in humanaties and the softer side of STEM up to speed with what they call "digital tools" and what the rest of us call using code & software to do things (or sometimes scientific programming). So amongst others, I taught some English majors, librarians, biologists, and a lot of Business majors [how to use pandas and sklearn](https://github.com/GCDigitalFellows/gcdri_ts_cat_ml). And that involved showing them code that looks like this:
+So, this week I took a semi-break<sup>1</sup> from GSOC 'cause my fellowship ran a [weeklong series of workshops](https://gcdigitalfellows.github.io/) that were aimed at getting academics in humanaties and the softer side of STEM up to speed with what they call "digital tools" and what the rest of us call using code & software to do things (or sometimes scientific programming). So while my cohort taught 'em other skills, I taught some English majors, librarians, biologists, psychologists, etc... and a lot of business majors [how to use pandas and sklearn](https://github.com/GCDigitalFellows/gcdri_ts_cat_ml). And that involved showing them code that looks like this:
 
 ```python
 
