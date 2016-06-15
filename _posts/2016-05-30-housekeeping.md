@@ -18,9 +18,8 @@ import pandas as pd
 
 issue_list = []
 for page in range(1,30):
-    r = requests.get('https://api.github.com/repos/matplotlib/matplotlib/issues', 
-                    params={'page':page})
-                    
+    r = requests.get('https://api.github.com/repos/matplotlib/matplotlib/issues',
+                     params={'page':page})
     for issue in r.json():
         row = {k:issue[k] for k in ('number', 'title')}
         row.update({k:issue[k][:10] for k in ('created_at', 'updated_at')})
