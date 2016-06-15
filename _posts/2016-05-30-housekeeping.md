@@ -11,6 +11,7 @@ I was feeling kind of lost and overwhelmed in the sea that is the [matplotlib co
 my mentors suggested that I do an ad-hoc literature review of the issues and pull requests to see which ones are related to my project.
 Since I wanted to keep track of what I'd read, I wrote a simple script to drop the issues into a csv:
 <!--more-->
+
 ```python
 import requests
 import pandas as pd
@@ -19,6 +20,7 @@ issue_list = []
 for page in range(1,30):
     r = requests.get('https://api.github.com/repos/matplotlib/matplotlib/issues', 
                     params={'page':page})
+                    
     for issue in r.json():
         row = {k:issue[k] for k in ('number', 'title')}
         row.update({k:issue[k][:10] for k in ('created_at', 'updated_at')})
