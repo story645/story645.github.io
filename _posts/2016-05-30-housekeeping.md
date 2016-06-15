@@ -17,7 +17,8 @@ import pandas as pd
 
 issue_list = []
 for page in range(1,30):
-    r = requests.get('https://api.github.com/repos/matplotlib/matplotlib/issues', params={'page':page})
+    r = requests.get('https://api.github.com/repos/matplotlib/matplotlib/issues', 
+                    params={'page':page})
     for issue in r.json():
         row = {k:issue[k] for k in ('number', 'title')}
         row.update({k:issue[k][:10] for k in ('created_at', 'updated_at')})
@@ -25,7 +26,8 @@ for page in range(1,30):
         row['pull_request'] = ('pull_request' in issue)
         issue_list.append(row)
 
-df = pd.DataFrame(issue_list, columns=['number', 'title', 'created_at', 'updated_at', 'labels', 'pull_request'])
+columns=['number', 'title', 'created_at', 'updated_at', 'labels', 'pull_request']
+df = pd.DataFrame(issue_list, columns=columns)
 df.to_csv("github", encoding='utf-8')
 ```
 
