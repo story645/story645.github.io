@@ -2,6 +2,7 @@
 layout: post
 title:  "This is really a usability project"
 date:   2016-06-14 14:20:41 -0400
+excerpt_separator: <!--more-->
 categories: jekyll update
 ---
 
@@ -20,7 +21,7 @@ ax1.set_xlim(-.5,12.5)
 ax1.set_ylim(-.8,.8)
 ax1.set_ylabel("X axis")
 ```
-
+<!--more-->
 For those of us who code a ton this makes some sense: tell where the bars go, and then how high. It's just an extension of x coordinates and y coordinates. Now imagine you haven't seen a cartesian plane (x/y graph) in years, possibly decades, and you possibly haven't made a chart in about that long. And coding is kinda new and so you may not know that .shape is a thing, much less what it does. So even totally ignoring the prettying boilerplate, currently teaching someone how to use matplotlib to make a simple bar plot requires:
 
 ```python

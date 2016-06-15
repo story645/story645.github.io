@@ -2,13 +2,15 @@
 layout: post
 title:  "Orientation by way of housekeeping"
 date:   2016-06-14 14:20:41 -0400
+excerpt_separator: <!--more-->
 categories: jekyll update
 ---
 
 My project, catagorical axis, intersects with all sorts of pieces of the codebase and I had no idea where to start. So, since 
 I was feeling kind of lost and overwhelmed in the sea that is the [matplotlib codebase](https://github.com/matplotlib/matplotlib), 
-my mentors suggested that I do an ad-hoc literature review of the issues and pull requests to see which ones are related to my project. Since I wanted to keep track of what I'd read, I wrote a simple script to drop the issues into a csv:
-
+my mentors suggested that I do an ad-hoc literature review of the issues and pull requests to see which ones are related to my project.
+Since I wanted to keep track of what I'd read, I wrote a simple script to drop the issues into a csv:
+<!--more-->
 ```python
 import requests
 import pandas as pd
