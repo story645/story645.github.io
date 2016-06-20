@@ -19,6 +19,8 @@ and [mpl/test_units](https://github.com/matplotlib/matplotlib/blob/master/lib/ma
 and like the title of this post implies, I've been going up and down the matplotlib call stack trying to sort out when the 
 conversion functions get called. And spending a lot of time on [gitter/mpl](https://gitter.im/matplotlib/matplotlib)
 
+<!--more-->
+
 It's also a little simplistic to just say conversion functions, 'cause far as I can figure out, 
 locators and formatters kick in too. So going by the official [maplotlib units docs](http://matplotlib.org/api/units_api.html), this
 is the skeleton of what I'm working with. There's some actual code too, but the skeleton is more important from a holistic 
