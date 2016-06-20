@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Orientation by way of housekeeping"
-date:   2016-06-14 14:20:41 -0400
+date:   2016-05-30 14:20:41 -0400
 excerpt_separator: <!--more-->
 categories: jekyll update
 ---
