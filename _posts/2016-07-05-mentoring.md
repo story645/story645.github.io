@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mentorship matters"
+title:  "Why mentorship matters"
 date:   2016-06-27 14:20:41 -0400
 excerpt_separator: <!--more-->
 categories: jekyll update
