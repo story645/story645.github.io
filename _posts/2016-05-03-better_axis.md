@@ -3,7 +3,7 @@ layout: post
 title:  "Why bother with catagorical support?"
 date:   2016-05-03 14:20:41 -0400
 excerpt_separator: <!--more-->
-categories: gsoc
+categories: jekyll update
 ---
 
 Catagorical data, like most data, often really needs to be visualized for readability. 
