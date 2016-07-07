@@ -15,7 +15,7 @@ and years and was insanely intimidated by the prospect. And the thing is, this w
 barriers to entry for me: the community is super friendly, I knew the library really well (hell, even 
 [wrote a tutorial](https://github.com/story645/matplotlib-tutorial) on it), been programming in Python (including the science stack) 
 for about 8 years (programming in general for about 15), teaching programming for 6 years, and I'm an organizer for one of the largest tech meetups 
-in NYC (NYLUG) - ugh, I sound obnoxious even to my ears, but I just to give you a sense of just how intimidated I was (still am...) despite on paper seeming like this should totally be in my wheelhouse.
+in NYC (NYLUG) - ugh, I sound obnoxious even to my ears, but I just want to give you a sense of just how intimidated I was (still am...) despite on paper seeming like this should totally be in my wheelhouse.
 
 <!--more-->
 It'd be easy to explain away my hesitation as a girl in tech thing 
