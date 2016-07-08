@@ -1,5 +1,5 @@
 
-![workflow](assets/figs/Screen Shot 2016-07-08 at 5.28.03 PM.png)
+![workflow](/_assets/figs/Screen Shot 2016-07-08 at 5.28.03 PM.png)
 Let's talk workflow 'cause I've spent a rather insane amount of time fighting with git. And I'm not new to git, 
 having been using it for a few years. I'm much more a fan of mercurial, 
 
