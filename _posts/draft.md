@@ -1,9 +1,17 @@
+---
+layout: post
+title:  "Learning Curves"
+date:   2016-07-18 16:21:00 -0400
+excerpt_separator: <!--more-->
+categories: jekyll update
+---
+
 I wanna start with a shout out to Numpy core developer Jaime Fernández del Río for essentially 
-drafting a [starter guide to Numpy C development](https://mail.scipy.org/pipermail/numpy-discussion/2016-July/075843.html) in 
-response to my asking the mailing list for help getting oriented. So now I'm kinda venturing down a side rabbit hole of 
-Python C & Numpy C dev, but at least it's well guided. I also have much appreciation for my mentor @tacaswell for voicing 
-confidence in my skills, 'specially as a few days back I was treated to some condescension towards my Pandas skills 
-(note: this is another library I teach fairly often, but even if I was a newbie to Pandas,it would still be not okay). As 
-I get deeper into the weeds in the Python, Numpy, & Matplotlib community, I honestly 
-get more amazed at how generally kind and friendly the community generally is. It's, possibly sadly, just a little bit 
-surprising 'cause I'm used to hostility 
+drafting a [starter guide to Numpy C development](https://mail.scipy.org/pipermail/numpy-discussion/2016-July/075843.html) in response to my asking the mailing list for help getting oriented. I kinda feel that this may be one of the most useful things to come out of my GSOC project.  Also, now I'm kinda venturing down a side rabbit hole of Python C & Numpy C dev, but at least it's well guided. In a quasi-related note, I got the matplotlib readme updated so it includes [contribute](https://github.com/matplotlib/matplotlib) info.
+
+I also have much appreciation for my mentor @tacaswell for voicing confidence in my skills, 'specially as a few days back I was treated to some condescension towards my Pandas skills (note: this is another library I teach fairly often, but even if I was a newbie it would still be not okay). As I get deeper into the weeds in the Python, Numpy, & Matplotlib community, I honestly get more amazed at how generally kind and friendly the community generally is. It's-possibly/probably sadly-just a little bit surprising 'cause I'm used to increasing hostility the closer a community gets to the OS level. 
+
+<!--more-->
+I'm thinking a lot a lot about [mentorship](http://story645.github.io/jekyll/update/2016/06/27/mentoring.html) and [teaching](http://story645.github.io/jekyll/update/2016/06/14/usability.html) and learning, especially 'cause I'm a couple of weeks into mentoring my high schoolers and I teach 'em this week. And I'm walking the tightrope that is teaching code: anything sufficiently interesting takes way too much code, often complicated, code. So function that away or use a very high level library? My experience is that people don't like too much magic; the abstraction confuses 'em and can make them feel very helpless. On the flip side, lay it all out there and it's crazy intimidating 'cause there's a sea of code; and it's often discouraging to learners 'cause it seems like there's "SO MUCH" to learn to do anything. And all the "yes it's frustrating" or "I look up everything in the docs too" doesn't actually sink in or reassure anyone. 
+
+And I think about this all the time 'cause there's the documentation equivalent. It often feels like most libraries have `hello world` level examples-except [apparently](http://matplotlib.org/devdocs/gallery.html) matplotlib, so that's now in my queue to rectify-and 50 pages deep into the API code and not much in between. Matplotlib is the weird exception that proves the rule, but that maybe mostly because so much of the code is boilerplate rather than doing anything terribly complicated. But as I'm very much seeing everytime I teach this, even that boilerplate is often hard. And it's important to really keep this all in mind 'cause 'specially for matplotlib, the audience is often explicitely scientist rather than programmer and so they may need a bit more hand holding through the code. Especially the new ones who haven't yet adopted the "I don't care how it does it, just tell me what to write" mentality. 
