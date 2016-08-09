@@ -15,7 +15,7 @@ am now buried under a mound of grading. This is about the moment when I'm quite 
 
 which is the very common use case of:
 
-```Python
+```python
 fig, ax = plt.subplots()
 ax.plot(['a', 'c', 'e'], label="plot 1")
 ax.plot(['a', 'b', 'd'], label="plot 2")
